@@ -2,39 +2,46 @@
 
 ## Estructura del Proyecto
 ```
-01_Instalacion_Sistema_Operativo/
+01_Practica No.4/
 │
-├── InstalacionSO.tex # Documento principal
-├── Bibliografia.bib # Referencias bibliográficas
-├── Bibliografia.tex # Sección de bibliografía
+├── Circuitos.tex # Documento principal
 │
 ├── Secciones/ # Archivos de secciones
 │ ├── Portada.tex
-│ ├── Resumen.tex
-│ ├── Indice.tex
-│ ├── Introduccion.tex
-│ ├── MarcoTeorico.tex
-│ ├── Instalaciones.tex
-│ ├── Entorno.tex
+│ ├── Objetivo_Material_Equipo.tex
+│ ├── Circuitos.tex
+| |── Analisis_Teorico
+│ ├── Analisis_Simulado.tex
+| |── Comparaciones.tex
+│ ├── Cuestionario.tex
 │ ├── Conclusiones.tex
-│ └── Anexos.tex
-│ ├── Instalaciones/
-│ │   ├── InstalacionAdrian.tex
-│ │   ├── InstalacionJuan.tex
-│ │   ├── InstalacionLalo.tex
-│ │   └── InstalacionLuis.tex
+| |
+│ ├── Desarrollo_Experimental/ #Son todos los circuitos
+│ │   ├── Juan.tex
+│ │   ├── Adrian.tex
+│ │   └── Santiago.tex
+│ ├── Analisis_Teorico/ #Son todos los circuitos
+│ │   ├── Juan.tex
+│ │   ├── Adrian.tex
+│ │   └── Santiago.tex
+│ ├── Analisis_Simulado/ #Son todos los circuitos
+│ │   ├── Juan.tex
+│ │   ├── Adrian.tex
+│ │   └── Santiago.tex
+│ ├── Comparacion_Resultados/ #Son todos los circuitos
+│ │   ├── Juan.tex
+│ │   ├── Adrian.tex
+│ │   └── Santiago.tex
 │ ├── Conclusiones/
+│ │   ├── ConclcusionJuan.tex
 │ │   ├── ConclusionAdrian.tex
-│ │   ├── ConclusionJuan.tex
-│ │   ├── ConclusionLalo.tex
-│ │   └── ConclusionLuis.tex
-└── Imagenes/ # Imágenes y gráficos
+│ │   └── ConclusionSantiago.tex
+└── Imagenes/ # Imágenes de los circuitos, y simulaciones.
     ├── logo_escom.png
     ├── logo_ipn.png
-    ├── Adrian/
     ├── Juan/
-    ├── Lalo/
-    └── Luis/
+    ├── Adrian/
+    └── Santiago/
 ```
 
 ## Requisitos
