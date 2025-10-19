@@ -1,4 +1,4 @@
-# Proyecto LaTeX - Instalación SO
+# Proyecto LaTeX - Practica No.4 Electronica Analogica
 
 ## Estructura del Proyecto
 ```
