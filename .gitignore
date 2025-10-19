@@ -1,0 +1,33 @@
+# Archivos temporales de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.lol
+*.bcf
+*.synctex(busy)
+*.bcf
+settings.json
+*run.xml
+
+
+# Archivo PDF final
+*.pdf
+
+# Carpetas de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de backup
+*~
+*.backup
