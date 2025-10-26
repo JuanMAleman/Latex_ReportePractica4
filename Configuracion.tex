@@ -27,6 +27,8 @@
 \usepackage{etoolbox}
 \usepackage{newtxtext}
 \usepackage{newtxmath}
+\usepackage{booktabs}
+\usepackage{siunitx}
 
 % Configuración de páginas y espaciado
 \geometry{margin=1in}
@@ -53,12 +55,13 @@
 % Configuración de hyperref
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
+    linkcolor=black,
     filecolor=magenta,
     urlcolor=cyan,
     pdftitle={Practica No.4_Equipo4-4CV2},
     pdfauthor={Juan Manuel Manriquez Aleman},
-    bookmarksopen=true
+    bookmarksopen=true,
+    linktoc=all
 }
 
 % BIBLATEX debe ir después de hyperref
@@ -110,7 +113,7 @@
 \renewcommand{\lstlistlistingname}{Índice de códigos}
 
 % Configuración de captions
-\captionsetup[figure]{name=Imagen}
+\captionsetup[figure]{name=Figure}
 
 % Configuración de anexos
 \newcounter{anexo}
